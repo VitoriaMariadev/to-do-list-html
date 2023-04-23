@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefas</title>
     <link rel="stylesheet" href="./style-pag.css">
+    <script src="../js/index.js"></script>
 </head>
 <body>
 
@@ -14,41 +15,26 @@
         <div class="conteiner">
 
             <div class="adicionar">
-                <button class="mais">+</button>
+                <button class="mais" onclick="add()">+</button>
             </div>
 
             <div class="conteiner-tarefas">
                 <div class="dias">
                     <div class="dia">
-                        <button class="btn-dias">Seg</button>
+                        <button class="btn-dias" >Seg</button>
                     </div>
                     <div class="resumo">
                         <input type="text" class="resumo-input">
                     </div>
                 </div>
 
-                <div class="tarefas">
+                <div class="tarefas" id="tarefas">
                     <div class="espacos">
                         <div class="checar">
                             <input type="checkbox" class="tarefas-checar">
                         </div>
                         <input type="text" class="tarefas-input">
                     </div>
-                    
-                    <div class="espacos">
-                        <div class="checar">
-                            <input type="checkbox" class="tarefas-checar">
-                        </div>
-                        <input type="text" class="tarefas-input">
-                    </div>
-
-                    <div class="espacos">
-                        <div class="checar">
-                            <input type="checkbox" class="tarefas-checar">
-                        </div>
-                        <input type="text" class="tarefas-input">
-                    </div>
-
 
                 </div>
 
