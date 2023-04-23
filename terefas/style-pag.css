@@ -39,6 +39,7 @@ main{
     align-items: center;
     justify-content: center;
     padding: 2px 2px 2px 2px;
+    
 }
 
 
@@ -50,6 +51,7 @@ main{
     height: 55px;
     font-size: 2rem;
     cursor: pointer;
+    box-shadow: 3px 3px 1px 0px #00000060;
 }
 
 .mais:hover{
@@ -68,6 +70,7 @@ main{
     flex-direction: column;
     padding-top: 20px;
     overflow:auto;
+    box-shadow: 3px 3px 1px 0px #00000060;
 }
 
 .dias{
